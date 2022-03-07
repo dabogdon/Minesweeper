@@ -64,7 +64,7 @@ public void displayLosingMessage() {
   buttons[9][9].setLabel("O");
   buttons[9][10].setLabel("S");
   buttons[9][11].setLabel("E");
-  noLoop();
+  //noLoop();
 }
 public void displayWinningMessage() {
   for (int r=0; r<NUM_ROWS; r++) {
