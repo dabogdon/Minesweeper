@@ -54,14 +54,14 @@ public boolean isWon() {
 }
 
 public void displayLosingMessage() {
-  /*for(MSButton mine:mines){
+  for(MSButton mine:mines){
     mine.setClicked(true);
   }
   for (int r=0; r<NUM_ROWS; r++) {
     for (int c=0; c<NUM_COLS; c++) {
       buttons[r][c].setLabel("");
     }
-  }*/
+  }
   buttons[9][8].setLabel("L");
   buttons[9][9].setLabel("O");
   buttons[9][10].setLabel("S");
