@@ -42,6 +42,8 @@ public void draw () {
   background( 0 );
   if (isWon() == true)
     displayWinningMessage();
+  if(dead==true)
+    displayLosingMessage();
 }
 
 public boolean isWon() {
@@ -122,7 +124,6 @@ public class MSButton {
       if (isFlagged()==true) {NUM_FLAGS--;}
       if (isFlagged()==false) {NUM_FLAGS++;}
     } else if (mines.contains(this)) {
-      displayLosingMessage();
       dead=true;
     } else if (countMines(myRow, myCol)>0) {setLabel(countMines(myRow, myCol));}
       else {
