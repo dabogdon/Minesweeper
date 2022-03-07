@@ -1,7 +1,7 @@
 import de.bezier.guido.*;
 int NUM_ROWS = 20;
 int NUM_COLS = 20;
-int NUM_MINES = 40;
+int NUM_MINES = 1;
 int NUM_FLAGS = NUM_MINES;
 int safeMines = NUM_MINES;
 int unCheckedSpots=(NUM_ROWS*NUM_COLS)-NUM_MINES;
